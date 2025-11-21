@@ -1,0 +1,26 @@
+# 웹 계산기 프로젝트 의존성 패키지
+
+# Flask: Python 웹 프레임워크
+# - 경량화된 웹 애플리케이션 프레임워크
+# - RESTful API 구축에 적합
+# - 간단한 라우팅과 템플릿 엔진 제공
+Flask==3.0.0
+
+# Werkzeug: Flask의 핵심 의존성
+# - WSGI 유틸리티 라이브러리
+# - 요청/응답 처리, 라우팅 등을 담당
+Werkzeug==3.0.1
+
+# Jinja2: Flask의 템플릿 엔진
+# - HTML 템플릿에 Python 변수를 삽입
+# - 조건문, 반복문 등의 로직 사용 가능
+Jinja2==3.1.2
+
+# 추가 패키지 (선택사항, 향후 확장 시 유용)
+# python-dotenv: 환경 변수 관리
+# python-dotenv==1.0.0
+
+# Flask-CORS: Cross-Origin Resource Sharing 지원
+# 다른 도메인에서 API 접근 시 필요
+# Flask-CORS==4.0.0
+
